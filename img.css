@@ -1,5 +1,6 @@
 .mordka{
-  width: 15rem;
+  width: 80%;
+  min-width: 15rem;
   border-radius: 20px 20px 10px 10px;
 
 }
