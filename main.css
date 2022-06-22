@@ -7,9 +7,17 @@ body {
     height: 100vh;
 }
 
+.alert {
+    position: sticky;
+    top: 0;
+    background: yellow;
+    color: black;
+    text-align: center;
+}
+
 .page {
     background-color: white;
-    box-shadow: 2px 0px .2em rgba(0, 0, 0, 0.6), -2px 0 .4em rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 0 .2em rgba(0, 0, 0, 0.6), -2px 0 .4em rgba(0, 0, 0, 0.6);
     padding: 70px;
 }
 .page .top-page {
@@ -18,14 +26,14 @@ body {
 }
 
 .page summary {
-    background-image: linear-gradient(90deg, lightgrey, transparent);
-    background-size: 300px;
+    background-image: linear-gradient(90deg,grey,transparent);
+    background-size: 800px;
     background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 10px;
 
 }
-li{
+
+li {
     font-size: 1.2rem;
-}
-.personal-details{
-
 }

@@ -1,0 +1,10 @@
+
+.alert {
+   background: #FCE97F;
+   animation: fadeBackground 5s;
+}
+
+@keyframes fadeBackground {
+   from { opacity: 100% }
+   to { opacity: 0 }
+}
